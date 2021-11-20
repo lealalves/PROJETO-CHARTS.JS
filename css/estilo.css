@@ -1,0 +1,51 @@
+
+.menubar{
+  list-style-type: none;
+  margin: 0;
+  padding: 1;
+  overflow: hidden;
+  border-bottom: 5px solid rgba(66, 244, 176, 0.3);
+}
+
+.menubar li{
+  float: left;
+  width: 15.1%;
+}
+
+.menubar li:nth-child(0){
+  text-align: left;
+}
+.menubar li:nth-child(2){
+  text-align: center;
+}
+.menubar li:nth-child(3){
+  text-align: right;
+}
+
+.menubar li a {   
+    display: block;
+    text-decoration: none;
+  font-size: 1.5em;
+  color: #555;
+}
+ 
+.menubar li a.active {
+    color: #111;
+}
+
+.menubar li a i{
+  padding: 10px;
+}
+
+h1{
+    font-size: 1em;
+    min-height: 1.1em;
+    text-align: center;
+    display: block;
+    margin: 0 30%;
+    padding: .7em 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: 0!important;
+}
